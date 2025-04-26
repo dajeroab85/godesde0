@@ -33,7 +33,7 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}*/
 
-	numero, texto := ejercicios.ConviertoEntero("A")
+	numero, texto := ejercicios.ConviertoEntero("500")
 
 	fmt.Println(numero)
 	fmt.Println(texto)
