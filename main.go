@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/godesde0/ejercicios"
+	"github.com/godesde0/files"
 )
 
 func main() {
@@ -33,8 +31,24 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}*/
 
-	numero, texto := ejercicios.ConviertoEntero("500")
+	/*
 
-	fmt.Println(numero)
-	fmt.Println(texto)
+		numero, texto := ejercicios.ConviertoEntero("500")
+
+		fmt.Println(numero)
+		fmt.Println(texto)*/
+
+	//teclado.IngresoNumero()
+
+	// Esto sería equivalente a usar un while infinito
+
+	//iteraciones.Iterar()
+
+	//fmt.Println(ejercicios.TabladeMultiplicar())
+
+	//files.GrabaTabla()
+
+	//files.SumaTabla()
+
+	files.LeoArchivo()
 }
