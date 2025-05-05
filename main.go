@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/godesde0/funciones"
+	"github.com/godesde0/arreglos_slices"
 )
 
 func main() {
@@ -56,5 +56,11 @@ func main() {
 
 	//funciones.LlamarClosure()
 
-	funciones.Exponecia(2)
+	//funciones.Exponecia(2)
+
+	//arreglos_slices.MuestroArreglos()
+
+	//arreglos_slices.MuestroSlice()
+
+	arreglos_slices.Capacidad()
 }
